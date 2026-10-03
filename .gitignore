@@ -1,0 +1,25 @@
+# Run-time data: never commit real MIS files, dashboards or logs
+02_RAW_MIS/
+03_WORKING/
+04_OUTPUTS/
+05_QC/
+06_ARCHIVE/
+08_RUN_LOG/
+demo/
+07_ENGINE/_dryrun/
+
+# Local configuration (real sender addresses, local paths)
+07_ENGINE/config/department_registry.json
+07_ENGINE/deploy/inbox_path.txt
+07_ENGINE/deploy/task_generated.xml
+07_ENGINE/deploy/*_log.txt
+
+# Python / OS
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
